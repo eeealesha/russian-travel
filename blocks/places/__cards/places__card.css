@@ -1,5 +1,8 @@
-.places__card { 
-    display: grid;
-    grid-template-columns: repeat(2, calc(100%/2));
-    column-gap: 40px;
+.places__card {
+  display: grid;
+  grid-template-columns: repeat(2, calc((100% - 40px) / 2));
+  grid-template-rows: repeat(2, minmax(min-content, max-content));
+  column-gap: 40px;
+  row-gap: 48px;
+  margin-bottom: 80px;
 }
