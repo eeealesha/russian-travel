@@ -6,3 +6,24 @@
   row-gap: 48px;
   margin-bottom: 80px;
 }
+
+@media screen and (max-width: 1024px) {
+  .places__card {
+    grid-template-columns: repeat(2, calc((100% - 32px) / 2));
+    column-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places__card {
+    grid-template-columns: repeat(2, calc((100% - 28px) / 2));
+    column-gap: 28px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places__card {
+display: flex;
+flex-direction: column;
+  }
+}
