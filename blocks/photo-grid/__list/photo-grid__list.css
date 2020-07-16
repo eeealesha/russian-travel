@@ -13,7 +13,6 @@
 
 @media screen and (max-width: 1024px) {
   .photo-grid__list {
-
     gap: 14px;
   }
 }
@@ -25,7 +24,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 450px) {
   .photo-grid__list {
     row-gap: 12px;
     column-gap: 0;
