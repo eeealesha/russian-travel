@@ -21,7 +21,7 @@
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 550px) {
   .places__card {
     display: flex;
     flex-direction: column;

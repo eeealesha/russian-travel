@@ -2,7 +2,7 @@
     width: 100%;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 550px) {
     .places__image {
       margin-bottom: 32px;
     }
